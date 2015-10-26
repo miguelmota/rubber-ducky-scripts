@@ -4,7 +4,7 @@
 
 ## Encoding source files
 
-Download the [Encoder](https://github.com/midnitesnake/usb-rubber-ducky).
+Download the **[Encoder](https://github.com/midnitesnake/usb-rubber-ducky)**.
 
 Instructions for Mac OS X
 
