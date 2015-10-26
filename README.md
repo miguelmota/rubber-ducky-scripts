@@ -9,7 +9,13 @@ Download the [Encoder](https://github.com/midnitesnake/usb-rubber-ducky).
 Instructions for Mac OS X
 
 ```bash
-java -jar encoder.jar -i source.txt -o /Volumes/Untitled/inject.bin
+java -jar encoder.jar -i source.txt -o /Volumes/<SD_CARD_NAME>/inject.bin
+```
+
+Instructions for Linux
+
+```bash
+java -jar encoder.jar -i source.txt -o /media/<SD_CARD_NAME>/inject.bin
 ```
 
 # License
