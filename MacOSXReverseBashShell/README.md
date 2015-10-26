@@ -5,7 +5,7 @@ Starts a [reverse bash shell](http://resources.infosecinstitute.com/icmp-reverse
 On your server make sure to run the netcat listener on the port.
 
 ```bash
-nc -l -p 1337n
+nc -l -p 1337
 ```
 
 Update the IP address of your server (`0.0.0.0`) in `source.txt`.
