@@ -2,7 +2,7 @@
 
 > Payloads for the [USB Rubber Ducky](http://hakshop.myshopify.com/products/usb-rubber-ducky).
 
-# Encoding source files
+## Encoding source files
 
 Download the [Encoder](https://github.com/midnitesnake/usb-rubber-ducky).
 
